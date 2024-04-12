@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.time-line-container {
+  padding: 8px;
+  font-family: Roboto;
+}
+.time-line-content {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #1e293b;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+}
+.span {
+  color: #2b237c;
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .time-line-container {
+    padding: 10px;
+    font-family: Roboto;
+  }
+
+  .heading {
+    color: #1e293b;
+    font-size: 30px;
+    line-height: 2;
+    text-align: center;
+  }
+  .span {
+    color: #2b237c;
+    font-size: 30px;
+    text-align: center;
+  }
+}
